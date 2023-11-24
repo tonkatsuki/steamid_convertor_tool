@@ -1,6 +1,13 @@
 # /bin/python3
 
-# Pull in admins.cfg
-# ripgrep? every steamid
-# Do webAPI lookup of each steamid, find steamid64, then replace in file and write change
+# 1. Get current steamid from file as loop
+# 2. Store as variable, webAPI lookup for new variable
+# 3. Replace variable
+#
+#
+# python3 main.py admins.cfg
+# it will export admins_new.cfg
+#
+#
+#
 
